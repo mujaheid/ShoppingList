@@ -3,7 +3,7 @@ function Footer() {
   return (
     <>
       <p className="footer">
-        <small> A Newton School Project Developed By @ Mukut Das</small>
+        <small> A Newton School Project Developed By @ Syed Mujaheid</small>
       </p>
     </>
   );
