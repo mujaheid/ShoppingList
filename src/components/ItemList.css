@@ -1,0 +1,68 @@
+body {
+    background-color: transparent;
+    min-width: 350px;
+    max-width: auto;
+  }
+  
+  .wrapper {
+    border: 1px solid;
+    margin: 3.0rem;
+  }
+  
+  .main h1 {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    padding: 2.0rem;
+/*     max-height: 50%; */
+    margin-top: 0px;
+  }
+  .main {
+    background-color: rgb(245, 207, 157);
+  }
+  .header_btn {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.5rem;
+/*     max-height: 50%; */
+    padding-top: 0px;
+  }
+  
+  .btn {
+    border-radius: 0.8rem;
+    background-color: orange;
+    padding: 0.7rem 2.0rem;
+    color: white;
+  }
+  span {
+    padding-top: 0.8rem;
+  }
+  .btn:hover {
+    color: darkorange;
+    background-color: white;
+    /* font-weight: bold; */
+  }
+
+html{
+  
+   font-size:62.5%;
+}
+
+@media (max-width:998px) {
+  html {
+    font-size:55%
+  }
+}
+
+
+@media (max-width:768px) {
+  html {
+    font-size:45%
+  }
+}
+
+@media (max-width:320px) {
+  html {
+    font-size:40%
+  }
+}
